@@ -1,0 +1,6 @@
+theme: dark
+decimal_precision: 8
+default_intervals: 100
+window_width: 1200
+window_height: 780
+database_path: data/history.db

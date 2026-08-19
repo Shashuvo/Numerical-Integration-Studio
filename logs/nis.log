@@ -1,0 +1,239 @@
+2026-07-26 20:09:12 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-07-26 20:09:13 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-07-26 20:09:16 | INFO     | nis.services.theme_service | Applied 'light' theme
+2026-07-26 20:09:52 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-07-26 20:09:52 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'dark'
+2026-07-26 20:11:32 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x/(1+x)' on [0.0, 1.0] with n=6
+2026-07-26 20:11:32 | INFO     | nis.database.db_manager | Inserted history entry id=1
+2026-07-26 20:12:07 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal'] over n in [1, 2, 3, 6, 12, 24, 48]
+2026-07-26 20:12:12 | INFO     | nis.services.pdf_report_service | Generated PDF report at D:\NumericalIntegrationStudio\calculation_report.pdf
+2026-07-26 20:12:12 | INFO     | nis.controllers.report_controller | Exported PDF report to D:/NumericalIntegrationStudio/calculation_report.pdf
+2026-08-03 00:33:44 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 00:33:46 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 00:33:51 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 00:36:56 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 00:36:56 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 00:39:12 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 00:39:13 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 00:39:14 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 00:39:44 | INFO     | nis.utils.config_manager | Settings updated: decimal_precision, default_intervals, theme
+2026-08-03 00:39:54 | INFO     | nis.utils.config_manager | Settings updated: decimal_precision, default_intervals, theme
+2026-08-03 00:39:54 | INFO     | nis.services.theme_service | Applied 'light' theme
+2026-08-03 00:39:54 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'light'
+2026-08-03 00:40:06 | INFO     | nis.utils.config_manager | Settings updated: decimal_precision, default_intervals, theme
+2026-08-03 00:40:06 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 00:40:06 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'dark'
+2026-08-03 00:40:16 | INFO     | nis.utils.config_manager | Settings updated: decimal_precision, default_intervals, theme
+2026-08-03 00:40:16 | INFO     | nis.services.theme_service | Applied 'light' theme
+2026-08-03 00:40:16 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'light'
+2026-08-03 00:40:21 | INFO     | nis.utils.config_manager | Settings updated: decimal_precision, default_intervals, theme
+2026-08-03 00:40:21 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 00:40:21 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'dark'
+2026-08-03 00:40:24 | INFO     | nis.services.theme_service | Applied 'light' theme
+2026-08-03 00:40:24 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'light'
+2026-08-03 00:40:25 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 00:40:25 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'dark'
+2026-08-03 00:40:45 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 00:40:45 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 01:32:40 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 01:32:41 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 01:32:42 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 01:33:34 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=50
+2026-08-03 01:33:34 | INFO     | nis.database.db_manager | Inserted history entry id=2
+2026-08-03 01:33:47 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal'] over n in [6, 12, 25, 50, 100, 200, 400]
+2026-08-03 01:34:05 | INFO     | nis.services.pdf_report_service | Generated PDF report at C:\Users\user\Downloads\calculation_report.pdf
+2026-08-03 01:34:05 | INFO     | nis.controllers.report_controller | Exported PDF report to C:/Users/user/Downloads/calculation_report.pdf
+2026-08-03 01:34:21 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=50
+2026-08-03 01:34:21 | INFO     | nis.database.db_manager | Inserted history entry id=3
+2026-08-03 01:34:34 | INFO     | nis.controllers.integration_controller | Computed 2 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=50
+2026-08-03 01:34:34 | INFO     | nis.database.db_manager | Inserted history entry id=4
+2026-08-03 01:35:02 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=50 is not a multiple of 3; rounding up to n=51
+2026-08-03 01:35:02 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=50
+2026-08-03 01:35:02 | INFO     | nis.database.db_manager | Inserted history entry id=5
+2026-08-03 01:35:12 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=50
+2026-08-03 01:35:12 | INFO     | nis.database.db_manager | Inserted history entry id=6
+2026-08-03 01:38:23 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 01:38:24 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 01:38:25 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 01:38:43 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:38:43 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (x+1)' on [0.0, 1.0] with n=100
+2026-08-03 01:38:43 | INFO     | nis.database.db_manager | Inserted history entry id=7
+2026-08-03 01:39:12 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 01:39:12 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 01:39:29 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 01:39:30 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 01:39:31 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 01:40:43 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 01:40:43 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 01:46:53 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 01:46:54 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 01:46:55 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 01:47:17 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:47:17 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  / x+1' on [0.0, 1.0] with n=100
+2026-08-03 01:47:17 | INFO     | nis.database.db_manager | Inserted history entry id=8
+2026-08-03 01:48:08 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:08 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 +1' on [0.0, 1.0] with n=100
+2026-08-03 01:48:08 | INFO     | nis.database.db_manager | Inserted history entry id=9
+2026-08-03 01:48:13 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:13 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 +x' on [0.0, 1.0] with n=100
+2026-08-03 01:48:13 | INFO     | nis.database.db_manager | Inserted history entry id=10
+2026-08-03 01:48:15 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:15 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 +x' on [0.0, 1.0] with n=100
+2026-08-03 01:48:15 | INFO     | nis.database.db_manager | Inserted history entry id=11
+2026-08-03 01:48:20 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:20 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 + x' on [0.0, 1.0] with n=100
+2026-08-03 01:48:20 | INFO     | nis.database.db_manager | Inserted history entry id=12
+2026-08-03 01:48:20 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:20 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 + x' on [0.0, 1.0] with n=100
+2026-08-03 01:48:20 | INFO     | nis.database.db_manager | Inserted history entry id=13
+2026-08-03 01:48:20 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:20 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x  /  1 + x' on [0.0, 1.0] with n=100
+2026-08-03 01:48:20 | INFO     | nis.database.db_manager | Inserted history entry id=14
+2026-08-03 01:48:34 | INFO     | nis.database.db_manager | Deleted history entry id=14
+2026-08-03 01:48:36 | INFO     | nis.database.db_manager | Deleted history entry id=13
+2026-08-03 01:48:36 | INFO     | nis.database.db_manager | Deleted history entry id=12
+2026-08-03 01:48:38 | INFO     | nis.database.db_manager | Deleted history entry id=7
+2026-08-03 01:48:39 | INFO     | nis.database.db_manager | Deleted history entry id=6
+2026-08-03 01:48:39 | INFO     | nis.database.db_manager | Deleted history entry id=5
+2026-08-03 01:48:39 | INFO     | nis.database.db_manager | Deleted history entry id=4
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=3
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=2
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=1
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=8
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=9
+2026-08-03 01:48:40 | INFO     | nis.database.db_manager | Deleted history entry id=10
+2026-08-03 01:48:41 | INFO     | nis.database.db_manager | Deleted history entry id=11
+2026-08-03 01:48:53 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 01:48:53 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (x+1)' on [0.0, 1.0] with n=100
+2026-08-03 01:48:54 | INFO     | nis.database.db_manager | Inserted history entry id=15
+2026-08-03 01:51:06 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 01:51:10 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 01:51:23 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 01:51:30 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 01:52:07 | INFO     | nis.services.csv_export_service | Exported CSV report to D:\NM Project\NumericalIntegrationStudio\calculation_report.csv
+2026-08-03 01:52:07 | INFO     | nis.controllers.report_controller | Exported CSV report to D:/NM Project/NumericalIntegrationStudio/calculation_report.csv
+2026-08-03 01:53:52 | INFO     | nis.services.pdf_report_service | Generated PDF report at D:\NM Project\NumericalIntegrationStudio\calculation_report.pdf
+2026-08-03 01:53:52 | INFO     | nis.controllers.report_controller | Exported PDF report to D:/NM Project/NumericalIntegrationStudio/calculation_report.pdf
+2026-08-03 01:54:46 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 01:54:46 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:23:10 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:23:12 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:23:19 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:23:39 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:23:39 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x/x+1' on [0.0, 1.0] with n=100
+2026-08-03 02:23:39 | INFO     | nis.database.db_manager | Inserted history entry id=16
+2026-08-03 02:24:02 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:24:02 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x/1+x' on [0.0, 1.0] with n=100
+2026-08-03 02:24:02 | INFO     | nis.database.db_manager | Inserted history entry id=17
+2026-08-03 02:24:17 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x/1+x' on [0.0, 1.0] with n=3
+2026-08-03 02:24:17 | INFO     | nis.database.db_manager | Inserted history entry id=18
+2026-08-03 02:24:27 | INFO     | nis.database.db_manager | Deleted history entry id=18
+2026-08-03 02:24:27 | INFO     | nis.database.db_manager | Deleted history entry id=17
+2026-08-03 02:24:27 | INFO     | nis.database.db_manager | Deleted history entry id=16
+2026-08-03 02:24:27 | INFO     | nis.database.db_manager | Deleted history entry id=15
+2026-08-03 02:24:46 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:24:46 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (x+1)' on [0.0, 1.0] with n=100
+2026-08-03 02:24:46 | INFO     | nis.database.db_manager | Inserted history entry id=19
+2026-08-03 02:25:01 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:25:01 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / x+1' on [0.0, 1.0] with n=100
+2026-08-03 02:25:01 | INFO     | nis.database.db_manager | Inserted history entry id=20
+2026-08-03 02:25:07 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:25:07 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / 1+x' on [0.0, 1.0] with n=100
+2026-08-03 02:25:07 | INFO     | nis.database.db_manager | Inserted history entry id=21
+2026-08-03 02:25:16 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:25:16 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (1+x)' on [0.0, 1.0] with n=100
+2026-08-03 02:25:16 | INFO     | nis.database.db_manager | Inserted history entry id=22
+2026-08-03 02:25:26 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 02:25:26 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x / (x+1)' on [0.0, 1.0] with n=100
+2026-08-03 02:25:26 | INFO     | nis.database.db_manager | Inserted history entry id=23
+2026-08-03 02:25:32 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 02:25:37 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 02:25:39 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['trapezoidal', 'simpson_1_3', 'simpson_3_8', 'taylor'] over n in [12, 25, 50, 100, 200, 400, 800]
+2026-08-03 02:29:25 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:29:25 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:29:39 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:29:40 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:29:41 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:29:54 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:29:54 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:30:59 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:31:00 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:31:00 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:32:24 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:32:24 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:33:57 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:33:58 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:33:59 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:39:17 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:39:18 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:39:19 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:39:25 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:39:25 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:39:44 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:39:46 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:39:47 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:43:34 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:43:34 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:43:58 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:44:00 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:44:01 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:44:27 | INFO     | nis.services.theme_service | Applied 'light' theme
+2026-08-03 02:44:27 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'light'
+2026-08-03 02:44:28 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:44:28 | INFO     | nis.utils.config_manager | Setting 'theme' updated to 'dark'
+2026-08-03 02:44:33 | INFO     | nis.database.db_manager | Deleted history entry id=19
+2026-08-03 02:44:33 | INFO     | nis.database.db_manager | Deleted history entry id=20
+2026-08-03 02:44:34 | INFO     | nis.database.db_manager | Deleted history entry id=21
+2026-08-03 02:44:34 | INFO     | nis.database.db_manager | Deleted history entry id=22
+2026-08-03 02:44:34 | INFO     | nis.database.db_manager | Deleted history entry id=23
+2026-08-03 02:47:23 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:47:24 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:47:25 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:48:03 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:48:03 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:48:16 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:48:17 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:48:17 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:48:24 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:48:24 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:51:52 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:51:53 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:51:53 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:52:24 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:52:24 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 02:53:07 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 02:53:08 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 02:53:09 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 02:53:31 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'sin(x)' on [0.0, 3.141593] with n=100
+2026-08-03 02:53:31 | INFO     | nis.database.db_manager | Inserted history entry id=24
+2026-08-03 02:53:41 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x**2' on [0.0, 2.0] with n=100
+2026-08-03 02:53:41 | INFO     | nis.database.db_manager | Inserted history entry id=25
+2026-08-03 02:53:46 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'exp(-x)' on [0.0, 1.0] with n=100
+2026-08-03 02:53:46 | INFO     | nis.database.db_manager | Inserted history entry id=26
+2026-08-03 02:53:59 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 02:53:59 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 13:26:17 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 13:26:19 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 13:26:24 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 13:37:03 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 13:37:03 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 13:37:18 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 13:37:20 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 13:37:20 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 13:56:27 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 13:56:27 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x/(x+1)' on [0.0, 1.0] with n=100
+2026-08-03 13:56:27 | INFO     | nis.database.db_manager | Inserted history entry id=27
+2026-08-03 13:56:27 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 13:56:27 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x/(x+1)' on [0.0, 1.0] with n=100
+2026-08-03 13:56:27 | INFO     | nis.database.db_manager | Inserted history entry id=28
+2026-08-03 14:19:41 | INFO     | nis.algorithms.simpson_three_eighth | Simpson's 3/8 Rule: n=100 is not a multiple of 3; rounding up to n=102
+2026-08-03 14:19:41 | INFO     | nis.controllers.integration_controller | Computed 4 method(s) for 'x/(x+1)' on [0.0, 1.0] with n=100
+2026-08-03 14:19:41 | INFO     | nis.database.db_manager | Inserted history entry id=29
+2026-08-03 14:31:42 | INFO     | nis.database.db_manager | Database connection closed
+2026-08-03 14:31:42 | INFO     | nis.__main__ | Numerical Integration Studio exited with code 0
+2026-08-03 14:31:57 | INFO     | nis.__main__ | Starting Numerical Integration Studio v1.0.0
+2026-08-03 14:31:58 | INFO     | nis.database.db_manager | Database schema initialized at data/history.db
+2026-08-03 14:31:59 | INFO     | nis.services.theme_service | Applied 'dark' theme
+2026-08-03 14:39:58 | INFO     | nis.controllers.integration_controller | Computed 1 method(s) for 'x/(x+1)' on [0.0, 1.0] with n=100
+2026-08-03 14:39:58 | INFO     | nis.database.db_manager | Inserted history entry id=30
+2026-08-03 14:40:31 | INFO     | nis.controllers.convergence_controller | Ran convergence sweep for methods ['taylor'] over n in [12, 25, 50, 100, 200, 400, 800]

@@ -1,0 +1,29 @@
+# Numerical Integration Studio - Python dependencies
+# Compatible with Python 3.14
+
+# GUI framework
+PySide6>=6.11.1
+
+# Scientific computing
+numpy>=2.3.0
+scipy>=1.16.0
+sympy>=1.14.0
+
+# Plotting (embedded in Qt via FigureCanvasQTAgg)
+matplotlib>=3.10.0
+
+# PDF report generation
+reportlab>=4.4.0
+
+# Config file parsing
+PyYAML>=6.0.2
+
+# Testing
+pytest>=8.4.0
+pytest-qt>=4.5.0
+pytest-cov>=6.0.0
+
+# Code quality (dev only)
+black>=25.0.0
+flake8>=7.3.0
+mypy>=1.17.0
